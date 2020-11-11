@@ -37,7 +37,7 @@ class PaymentAcquirerEpayco(models.Model):
                                 firstname=values.get('partner_name'),
                                 email=values.get('partner_email'),
                                 phone=values.get('partner_phone'),
-                                currency_code=values['currency'].code.lower(),
+                                currency_code=values['currency'].name,
                                 country_code=country,
                                 epayco_checkout_external="true",
                                 epayco_env_test=environment,
