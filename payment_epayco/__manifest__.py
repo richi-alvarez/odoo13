@@ -2,7 +2,6 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
-
 {
     'name': 'Epayco Payment Acquirer',
     'category': 'Accounting/Payment',
@@ -19,4 +18,6 @@
         'data/payment_acquirer_data.xml',
     ],
     'post_init_hook': 'create_missing_journal_for_acquirers',
+
 }
+
